@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/cedulaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Cédula"/>
+
+    <EditText
+        android:id="@+id/nombreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nombre"/>
+
+    <EditText
+        android:id="@+id/telefonoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Teléfono"/>
+
+    <EditText
+        android:id="@+id/solicitudEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Solicitud"/>
+
+    <Button
+        android:id="@+id/registrarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"/>
+
+    <Button
+        android:id="@+id/consultarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar"/>
+
+    <Button
+        android:id="@+id/verTodosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Todos"/>
+
+    <Button
+        android:id="@+id/btnEliminarTodos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Todos los Datos"/>
+
+    <Button
+        android:id="@+id/botonBorrarPorCedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borrar por Cédula" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/botonBorrarPorCedula"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</LinearLayout>
